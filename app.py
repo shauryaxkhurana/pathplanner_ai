@@ -1,7 +1,9 @@
 import streamlit as st
 import os
 import json
+import pandas as pd
 from roadmap_generator import generate_roadmap
+from utils import get_affirmation
 
 # --- App Configuration ---
 st.set_page_config(page_title="PathPlanner.AI", layout="wide")
@@ -56,5 +58,33 @@ if st.button("Generate My Roadmap"):
 
                 st.markdown("---")
 
-            # Save progress
+            # Save progress after all updates
             save_progress(progress_data)
+
+            # --- Progress Dashboard ---
+            st.header("📈 Your Weekly Progress")
+
+            weekly_progress = []
+            for week_key, topics_dict in progress_data.items():
+                if week_key.startswith(user_goal):
+                    total = len(topics_dict)
+                    completed = sum(1 for status in topics_dict.values() if status)
+                    progress_percent = (completed / total) * 100 if total > 0 else 0
+                    week_number = int(week_key.split('_week_')[-1])
+                    weekly_progress.append((week_number, progress_percent))
+
+            weekly_progress.sort(key=lambda x: x[0])
+
+            if weekly_progress:
+                df = pd.DataFrame(weekly_progress, columns=["Week", "Completion %"])
+                st.bar_chart(df.set_index("Week"))
+            else:
+                st.info("Complete some topics to see progress stats.")
+
+            # --- Affirmations ---
+            st.markdown("---")
+            st.subheader("💬 Weekly Affirmations")
+
+            for week_number, percent in weekly_progress:
+                msg = get_affirmation(percent)
+                st.markdown(f"**Week {week_number}:** {msg}")
