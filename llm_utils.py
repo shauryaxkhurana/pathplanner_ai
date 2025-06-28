@@ -7,8 +7,8 @@ def interpret_goal(user_goal):
     prompt = f"""
     You are a smart academic advisor.
     Interpret this learning goal: "{user_goal}"
-    1. Suggest the most relevant academic track (e.g., 'gate', 'class 10', 'machine learning')
-    2. Suggest 8-10 key topics the user should cover.
+    1. Suggest the most relevant academic track (e.g., 'trignometry','bernoulli's theorem','CS',etc.)
+    2. Suggest 4-5 key topics the user should cover.
 
     Respond in this format:
     {{

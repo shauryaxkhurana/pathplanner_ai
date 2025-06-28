@@ -324,5 +324,113 @@
   "coordinate geometry_Week 10": {
     "Our Environment": false,
     "Sustainable Management of Natural Resources": false
+  },
+  "Maths_Week 1": {
+    "Real Numbers": false,
+    "Polynomials": false,
+    "Linear Equations in Two Variables": false,
+    "Quadratic Equations": false,
+    "Arithmetic Progressions": false,
+    "Triangles": false,
+    "Coordinate Geometry": false,
+    "Trigonometry": false,
+    "Number Systems": false
+  },
+  "Maths_Week 2": {
+    "Circles": false,
+    "Areas Related to Circles": false,
+    "Surface Areas and Volumes": false,
+    "Statistics": false,
+    "Probability": false,
+    "Chemical Reactions and Equations": false,
+    "Acids, Bases and Salts": false,
+    "Lines and Angles": false,
+    "Triangles": false,
+    "Quadrilaterals": false
+  },
+  "Maths_Week 3": {
+    "Metals and Non-metals": false,
+    "Carbon and its Compounds": false,
+    "Periodic Classification of Elements": false,
+    "Life Processes": false,
+    "Control and Coordination": false,
+    "How do Organisms Reproduce?": false,
+    "Heredity and Evolution": false,
+    "Circles": false,
+    "Surface Areas and Volumes": false,
+    "Statistics": false
+  },
+  "Maths_Week 4": {
+    "Light \u2013 Reflection and Refraction": false,
+    "The Human Eye and the Colourful World": false,
+    "Electricity": false,
+    "Magnetic Effects of Electric Current": false,
+    "Sources of Energy": false,
+    "Our Environment": false,
+    "Sustainable Management of Natural Resources": false,
+    "Probability": false,
+    "Matter in Our Surroundings": false,
+    "Is Matter Around Us Pure?": false
+  },
+  "_Week 1": {
+    "Number Systems": false,
+    "Polynomials": false,
+    "Linear Equations in Two Variables": false,
+    "Coordinate Geometry": false
+  },
+  "_Week 2": {
+    "Lines and Angles": false,
+    "Triangles": false,
+    "Quadrilaterals": false
+  },
+  "_Week 3": {
+    "Circles": false,
+    "Surface Areas and Volumes": false,
+    "Statistics": false
+  },
+  "_Week 4": {
+    "Probability": false,
+    "Matter in Our Surroundings": false,
+    "Is Matter Around Us Pure?": false
+  },
+  "_Week 5": {
+    "Atoms and Molecules": false,
+    "Structure of the Atom": false,
+    "The Fundamental Unit of Life": false
+  },
+  "_Week 6": {
+    "Tissues": false,
+    "Diversity in Living Organisms": false,
+    "Motion": false
+  },
+  "_Week 7": {
+    "Force and Laws of Motion": false,
+    "Gravitation": false,
+    "Work and Energy": false
+  },
+  "_Week 8": {
+    "Sound": false,
+    "Natural Resources": false,
+    "Improvement in Food Resources": false
+  },
+  "Maths_Week 5": {
+    "Atoms and Molecules": false,
+    "Structure of the Atom": false,
+    "The Fundamental Unit of Life": false
+  },
+  "Maths_Week 6": {
+    "Tissues": false,
+    "Diversity in Living Organisms": false,
+    "Motion": false
+  },
+  "Maths_Week 7": {
+    "Force and Laws of Motion": false,
+    "Gravitation": false,
+    "Work and Energy": false
+  },
+  "Maths_Week 8": {
+    "Sound": false,
+    "Natural Resources": false,
+    "Improvement in Food Resources": false
   }
 }
