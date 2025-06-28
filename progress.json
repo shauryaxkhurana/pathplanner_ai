@@ -1,0 +1,328 @@
+{
+  "linear algebra_Week 1": {
+    "Real Numbers": false,
+    "Polynomials": false,
+    "Linear Equations in Two Variables": false,
+    "Quadratic Equations": false
+  },
+  "linear algebra_Week 2": {
+    "Arithmetic Progressions": false,
+    "Triangles": false,
+    "Coordinate Geometry": false,
+    "Trigonometry": false
+  },
+  "linear algebra_Week 3": {
+    "Circles": false,
+    "Areas Related to Circles": false,
+    "Surface Areas and Volumes": false,
+    "Statistics": false
+  },
+  "linear algebra_Week 4": {
+    "Probability": false,
+    "Chemical Reactions and Equations": false,
+    "Acids, Bases and Salts": false,
+    "Metals and Non-metals": false
+  },
+  "linear algebra_Week 5": {
+    "Carbon and its Compounds": false,
+    "Periodic Classification of Elements": false,
+    "Life Processes": false,
+    "Control and Coordination": false
+  },
+  "linear algebra_Week 6": {
+    "How do Organisms Reproduce?": false,
+    "Heredity and Evolution": false,
+    "Light \u00e2\u20ac\u201c Reflection and Refraction": false
+  },
+  "linear algebra_Week 7": {
+    "The Human Eye and the Colourful World": false,
+    "Electricity": false,
+    "Magnetic Effects of Electric Current": false
+  },
+  "linear algebra_Week 8": {
+    "Sources of Energy": false,
+    "Our Environment": false,
+    "Sustainable Management of Natural Resources": false
+  },
+  "crack microsoft_Week 1": {
+    "Time Management": false,
+    "Goal Setting": false
+  },
+  "crack microsoft_Week 2": {
+    "Note Taking": false
+  },
+  "crack microsoft_Week 3": {
+    "Daily Review": false
+  },
+  "crack microsoft_Week 4": {
+    "Revision Strategy": false
+  },
+  "crack microsoft_Week 5": {
+    "Pomodoro Technique": false
+  },
+  "crack microsoft_Week 6": {
+    "Smart Scheduling": false
+  },
+  "crack microsoft_Week 7": {
+    "Study Environment Optimization": false
+  },
+  "crack microsoft_Week 8": {
+    "Focus and Concentration": false
+  },
+  "polynomials_Week 1": {
+    "Number Systems": false,
+    "Polynomials": false,
+    "Linear Equations in Two Variables": false,
+    "Coordinate Geometry": false
+  },
+  "polynomials_Week 2": {
+    "Lines and Angles": false,
+    "Triangles": false,
+    "Quadrilaterals": false,
+    "Coordinate Geometry": false
+  },
+  "polynomials_Week 3": {
+    "Circles": false,
+    "Surface Areas and Volumes": false,
+    "Statistics": false,
+    "Triangles": false,
+    "Quadrilaterals": false
+  },
+  "polynomials_Week 4": {
+    "Probability": false,
+    "Matter in Our Surroundings": false,
+    "Is Matter Around Us Pure?": false,
+    "Circles": false,
+    "Surface Areas and Volumes": false
+  },
+  "polynomials_Week 5": {
+    "Atoms and Molecules": false,
+    "Structure of the Atom": false,
+    "The Fundamental Unit of Life": false,
+    "Statistics": false,
+    "Probability": false
+  },
+  "polynomials_Week 6": {
+    "Tissues": false,
+    "Diversity in Living Organisms": false,
+    "Motion": false,
+    "Matter in Our Surroundings": false,
+    "Is Matter Around Us Pure?": false
+  },
+  "polynomials_Week 7": {
+    "Force and Laws of Motion": false,
+    "Gravitation": false,
+    "Work and Energy": false,
+    "Atoms and Molecules": false,
+    "Structure of the Atom": false
+  },
+  "polynomials_Week 8": {
+    "Sound": false,
+    "Natural Resources": false,
+    "Improvement in Food Resources": false,
+    "The Fundamental Unit of Life": false,
+    "Tissues": false
+  },
+  "polynomials_Week 9": {
+    "Diversity in Living Organisms": false,
+    "Motion": false
+  },
+  "polynomials_Week 10": {
+    "Force and Laws of Motion": false,
+    "Gravitation": false
+  },
+  "polynomials_Week 11": {
+    "Work and Energy": false,
+    "Sound": false
+  },
+  "polynomials_Week 12": {
+    "Natural Resources": false,
+    "Improvement in Food Resources": false
+  },
+  "maths_Week 1": {
+    "Number Systems": false,
+    "Polynomials": false,
+    "Linear Equations in Two Variables": false
+  },
+  "maths_Week 2": {
+    "Coordinate Geometry": false,
+    "Lines and Angles": false
+  },
+  "maths_Week 3": {
+    "Triangles": false,
+    "Quadrilaterals": false
+  },
+  "maths_Week 4": {
+    "Circles": false,
+    "Surface Areas and Volumes": false
+  },
+  "maths_Week 5": {
+    "Statistics": false,
+    "Probability": false
+  },
+  "maths_Week 6": {
+    "Matter in Our Surroundings": false,
+    "Is Matter Around Us Pure?": false
+  },
+  "maths_Week 7": {
+    "Atoms and Molecules": false,
+    "Structure of the Atom": false
+  },
+  "maths_Week 8": {
+    "The Fundamental Unit of Life": false,
+    "Tissues": false
+  },
+  "maths_Week 9": {
+    "Diversity in Living Organisms": false,
+    "Motion": false
+  },
+  "maths_Week 10": {
+    "Force and Laws of Motion": false,
+    "Gravitation": false
+  },
+  "maths_Week 11": {
+    "Work and Energy": false,
+    "Sound": false
+  },
+  "maths_Week 12": {
+    "Natural Resources": false,
+    "Improvement in Food Resources": false
+  },
+  "class 10th_Week 1": {
+    "Real Numbers": false,
+    "Polynomials": false,
+    "Linear Equations in Two Variables": false
+  },
+  "class 10th_Week 2": {
+    "Quadratic Equations": false,
+    "Arithmetic Progressions": false,
+    "Triangles": false
+  },
+  "class 10th_Week 3": {
+    "Coordinate Geometry": false,
+    "Trigonometry": false,
+    "Circles": false
+  },
+  "class 10th_Week 4": {
+    "Areas Related to Circles": false,
+    "Surface Areas and Volumes": false,
+    "Statistics": false
+  },
+  "class 10th_Week 5": {
+    "Probability": false,
+    "Chemical Reactions and Equations": false,
+    "Acids, Bases and Salts": false
+  },
+  "class 10th_Week 6": {
+    "Metals and Non-metals": false,
+    "Carbon and its Compounds": false
+  },
+  "class 10th_Week 7": {
+    "Periodic Classification of Elements": false,
+    "Life Processes": false
+  },
+  "class 10th_Week 8": {
+    "Control and Coordination": false,
+    "How do Organisms Reproduce?": false
+  },
+  "class 10th_Week 9": {
+    "Heredity and Evolution": false,
+    "Light \u00e2\u20ac\u201c Reflection and Refraction": false
+  },
+  "class 10th_Week 10": {
+    "The Human Eye and the Colourful World": false,
+    "Electricity": false
+  },
+  "class 10th_Week 11": {
+    "Magnetic Effects of Electric Current": false,
+    "Sources of Energy": false
+  },
+  "class 10th_Week 12": {
+    "Our Environment": false,
+    "Sustainable Management of Natural Resources": false
+  },
+  "IIT civil_Week 1": {
+    "Time Management": false
+  },
+  "IIT civil_Week 2": {
+    "Goal Setting": false
+  },
+  "IIT civil_Week 3": {
+    "Note Taking": false
+  },
+  "IIT civil_Week 4": {
+    "Daily Review": false
+  },
+  "IIT civil_Week 5": {
+    "Revision Strategy": false
+  },
+  "IIT civil_Week 6": {
+    "Pomodoro Technique": false
+  },
+  "IIT civil_Week 7": {
+    "Smart Scheduling": false
+  },
+  "IIT civil_Week 8": {
+    "Study Environment Optimization": false
+  },
+  "IIT civil_Week 9": {
+    "Focus and Concentration": false
+  },
+  "IIT civil_Week 10": {},
+  "IIT civil_Week 11": {},
+  "IIT civil_Week 12": {},
+  "IIT civil_Week 13": {},
+  "IIT civil_Week 14": {},
+  "IIT civil_Week 15": {},
+  "IIT civil_Week 16": {},
+  "IIT civil_Week 17": {},
+  "coordinate geometry_Week 1": {
+    "Real Numbers": false,
+    "Polynomials": false,
+    "Linear Equations in Two Variables": false
+  },
+  "coordinate geometry_Week 2": {
+    "Quadratic Equations": false,
+    "Arithmetic Progressions": false,
+    "Triangles": false
+  },
+  "coordinate geometry_Week 3": {
+    "Coordinate Geometry": false,
+    "Trigonometry": false,
+    "Circles": false
+  },
+  "coordinate geometry_Week 4": {
+    "Areas Related to Circles": false,
+    "Surface Areas and Volumes": false,
+    "Statistics": false
+  },
+  "coordinate geometry_Week 5": {
+    "Probability": false,
+    "Chemical Reactions and Equations": false,
+    "Acids, Bases and Salts": false
+  },
+  "coordinate geometry_Week 6": {
+    "Metals and Non-metals": false,
+    "Carbon and its Compounds": false,
+    "Periodic Classification of Elements": false
+  },
+  "coordinate geometry_Week 7": {
+    "Life Processes": false,
+    "Control and Coordination": false,
+    "How do Organisms Reproduce?": false
+  },
+  "coordinate geometry_Week 8": {
+    "Heredity and Evolution": false,
+    "Light \u00e2\u20ac\u201c Reflection and Refraction": false,
+    "The Human Eye and the Colourful World": false
+  },
+  "coordinate geometry_Week 9": {
+    "Electricity": false,
+    "Magnetic Effects of Electric Current": false,
+    "Sources of Energy": false
+  },
+  "coordinate geometry_Week 10": {
+    "Our Environment": false,
+    "Sustainable Management of Natural Resources": false
+  }
+}

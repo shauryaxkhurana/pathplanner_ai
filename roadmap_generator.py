@@ -1,39 +1,23 @@
-import json
-import random
+def generate_roadmap(topics, weeks, user_goal=None):
+    roadmap = {}
 
-def load_skills():
-    with open("skills_db.json", "r") as file:
-        skills_map = json.load(file)
-    return skills_map
+    if user_goal:
+        goal_lower = user_goal.lower()
+        if "gate" in goal_lower:
+            topics = sorted(topics)
+        elif "class 10" in goal_lower or "cbse" in goal_lower:
+            topics = topics
+        elif "ml" in goal_lower or "machine learning" in goal_lower:
+            topics = topics[::-1]
 
-def generate_roadmap(user_goal, total_weeks):
-    skills_map = load_skills()
+    total_topics = len(topics)
+    topics_per_week = total_topics // weeks
+    remainder = total_topics % weeks
 
-    # Simple matching: find skill domain related to goal
-    matched_skills = []
-    for category, skills in skills_map.items():
-        if category.lower() in user_goal.lower():
-            matched_skills.extend(skills)
+    idx = 0
+    for week in range(1, weeks + 1):
+        count = topics_per_week + (1 if week <= remainder else 0)
+        roadmap[f"Week {week}"] = topics[idx: idx + count]
+        idx += count
 
-    # Fallback: use default/general skills
-    if not matched_skills:
-        matched_skills = skills_map.get("general", [])
-
-    # Divide skills into weekly chunks
-    random.shuffle(matched_skills)
-    weekly_plan = {}
-    skills_per_week = max(1, len(matched_skills) // total_weeks)
-
-    for week in range(1, total_weeks + 1):
-        start = (week - 1) * skills_per_week
-        end = start + skills_per_week
-        topics = matched_skills[start:end]
-        if not topics:
-            topics = ["Revision / Practice"]
-
-        weekly_plan[week] = {
-            "focus": f"Learning {topics[0]}" if topics[0] != "Revision / Practice" else topics[0],
-            "topics": topics
-        }
-
-    return weekly_plan
+    return roadmap
