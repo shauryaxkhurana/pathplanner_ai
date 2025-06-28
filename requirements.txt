@@ -1,2 +1,5 @@
-streamlit
-ollama
+streamlit>=1.33.0
+requests>=2.31.0
+beautifulsoup4>=4.13.4
+pdfkit>=1.0.0
+ollama>=0.4.8

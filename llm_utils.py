@@ -1,29 +1,60 @@
-import ollama
 import json
 import re
+import ollama
 
+# 🧠 Interpret a full learning goal and extract track + topics
 def interpret_goal(user_goal):
-    prompt = f'''
-    You are an expert academic advisor. Given this user's goal: "{user_goal}",
-    identify:
-    1. Suitable learning tracks (choose from: class 10, class 11, class 12, GATE, machine learning, general)
-    2. 10 most important topics or skills they should study
+    prompt = f"""
+    You are a smart academic advisor.
+    Interpret this learning goal: "{user_goal}"
+    1. Suggest the most relevant academic track (e.g., 'gate', 'class 10', 'machine learning')
+    2. Suggest 8-10 key topics the user should cover.
 
-    Respond in this JSON format:
+    Respond in this format:
     {{
-        "tracks": [...],
-        "topics": [...]
+      "tracks": ["..."],
+      "topics": ["...", "..."]
     }}
-    '''
+    """
     response = ollama.chat(
-        model="mistral",
+        model="mistral:instruct",
         messages=[{"role": "user", "content": prompt}]
     )
+    try:
+        json_block = re.search(r'\{.*\}', response['message']['content'], re.DOTALL)
+        return json.loads(json_block.group(0)) if json_block else {}
+    except:
+        return {}
 
-    match = re.search(r'\{.*\}', response['message']['content'], re.DOTALL)
-    if match:
-        try:
-            return json.loads(match.group(0))
-        except json.JSONDecodeError:
-            return {"tracks": [], "topics": []}
-    return {"tracks": [], "topics": []}
+# 📘 Break a specific topic into a week-wise roadmap
+def generate_topic_roadmap(topic, weeks):
+    prompt = f"""
+    Break down the topic "{topic}" into a detailed roadmap for {weeks} weeks.
+    Each week should contain 2-3 logically connected subtopics or skills.
+
+    Respond in JSON format like:
+    {{
+        "Week 1": ["...", "..."],
+        "Week 2": ["...", "..."]
+    }}
+    """
+    response = ollama.chat(
+        model="mistral:instruct",
+        messages=[{"role": "user", "content": prompt}]
+    )
+    try:
+        json_block = re.search(r'\{.*\}', response['message']['content'], re.DOTALL)
+        return json.loads(json_block.group(0)) if json_block else {}
+    except:
+        return {}
+
+# 💬 Ask anything (StudyBot)
+def ask_ai(query):
+    response = ollama.chat(
+        model="mistral:instruct",
+        messages=[
+            {"role": "system", "content": "You are a helpful, friendly academic tutor who explains things clearly."},
+            {"role": "user", "content": query}
+        ]
+    )
+    return response["message"]["content"]
